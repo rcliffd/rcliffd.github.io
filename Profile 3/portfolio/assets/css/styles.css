@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+main {
+  margin-top: 17rem;
+}
+.centered {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.jumbotron {
+  margin: 0;
+  padding: 3.5rem 0;
+  background: url(https://www.nyit.edu/files/landing_hero/Home_DegreeCluster_ComputerScienceDataCyberSecurity.jpg)
+    no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.display-4 {
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0;
+}
+.lead {
+  font-size: 1.5rem;
+}
+.bg-dark {
+  background-color: #ffffff !important;
+}
+.btn-dark {
+  background: #9ad8ff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #024877;
+  float: left;
+}
+.navbar-expand-lg .navbar-nav .nav-link a:hover {
+  color: #fff;
+}
+.imgBox {
+  max-height: 330px;
+  overflow: hidden;
+}
+a {
+  color: #224358;
+}
+p:first-child {
+  padding-top: 2rem;
+}
+p:last-child,
+ul li:last-child {
+  padding-bottom: 2rem;
+}
+
+.light-gray {
+  background: #a9f8e4;
+}
+h3 {
+  padding-top: 2rem;
+  color: #380101;
+}
+h3.lead {
+  padding-top: 0;
+}
+
+.btn {
+  margin: 1rem;
+}
+.portfolio-img {
+  max-width: 350px;
+}
+.pad-top {
+  padding-top: 10px;
+}
+.margin-bottom {
+  margin-bottom: 4.5rem;
+}
+.anchor {
+  display: block;
+  height: 272px; /*same height as header*/
+  margin-top: -272px; /*same height as header*/
+  visibility: hidden;
+}
+
+/* media queries */
+@media screen and (max-width: 640px) {
+  main {
+    margin-top: 9rem;
+  }
+  .jumbotron {
+    padding: 1rem 0;
+  }
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+  .portfolio-img {
+    max-width: 100%;
+  }
+  .anchor {
+    height: 155px; /*same height as header*/
+    margin-top: -155px; /*same height as header*/
+  }
+  .margin-bottom {
+    margin-bottom: 5.8rem;
+  }
+}
